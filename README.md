@@ -9,6 +9,7 @@ unzip main.zip
 sudo chmod +x install.sh
 sudo chmod +x start.sh
 sudo ./install.sh # installs ngrok, setups an auth key and installs java
+sudo ./ngrok.sh # starts ngrok server 
 sudo ./start.sh # starts the Minecraft server.
 
 # or you can use
