@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# starts ngrok server at TCP/25565
-ngrok tcp 25565
-
 # starts server
 java -Xmx1024M -Xms1024M -jar minecraft_server.1.19.2.jar nogui
 
